@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/book.webp" />
+    <link rel="stylesheet" href="css/custom.css">
+    <title>JavaScriptチートシート</title>
+  </head>
+<h1>JavaScriptチートシート</h1>
+<div id="containar">
+<div id="array_sheet">
+  <h2>Array メソッド</h2>
+<ul>
+<li>concat　　　2 つ以上の配列を結合し、結合した配列のコピーを返します</li>
+<li>push　　　　配列の末尾に新しい要素を追加する</li>
+<li>pop　　　　　配列の最後の要素を削除</li>
+<li>indexOf　　　要素の配列を検索し、その位置を返します</li>
+<li>lastIn­dexOf　配列の末尾から要素を検索し、その位置を返します</li>
+<li>slice　　　　　文字列や配列などからデータの一部分だけ取り出せる</li>
+<li>length　　　　配列の要素の数を取得する</li>
+<li>shift　　　　　配列の最初の要素を削除し、その要素を返します</li>
+<li>includes　　　特定の要素が配列に含まれているかどうかをtrue / false で返します</li>
+</ul>
+</div>
+<div id="num_sheet">
+  <h2>Number メソッド</h2>
+  <ul>
+    <li>toExponential(x)　　　　数値を指数表記に変換します。</li>
+    <li>toFixed(x)　　　　指定した少数点以下の桁数で数値を四捨五入してくれます。</li>
+    <li>toString()　　　　文字列でないものを文字列に変換するとき</li>
+     <li>toPrecision(x)　　　　Numberオブジェクトを指定された精度で表した文字列を返します。</li>
+  </ul>
+</div>
+<div id="date_sheet">
+  <h2>Date メソッド</h2>
+  <ul>
+    <li>getFullYear()　　　　指定された日時の年を返します（4ケタの年）</li>
+    <li>getMonth()　　　　「月」を表す0~11までの値を返す。 指定された日付の「月」返す。0 が年の最初の月を示す(0 ~ 11)</li>
+    <li>getDate()　　　　　指定された日付の「日」を返します。(0 ~ 31)</li>
+    <li>getHours()　　　　指定された日時の「時」を返します。(0 ~  23)</li>
+    <li>getMinutes()　　　　　　指定された日時の「分」を返します。(0  ~ 59)</li>
+    <li>getSeconds()　　　　　　指定した日時の「秒」を返します。(0  ~  59)</li>
+  </ul>
+</div>
+<div id="mouse_sheet">
+  <h2>Mouse Event</h2>
+  <ul>
+    <li>click　　　　　　　クリックされたときに発生</li>
+    <li>dbclick　　　　　　	ダブルクリックされたときに発生</li>
+    <li>mousedown　　　　	マウスボタンが押されたときに発生</li>
+    <li>mousemove　　　　	マウスポインタが要素の上を移動したときに発生</li>
+    <li>mouseover　　　　	マウスポインタが要素に乗ったときに発生</li>
+    <li>mouseout　　　　　マウスポインタが要素から離れたときに発生</li>
+    <li>mouseup　　　　　マウスボタンが離されたときに発生</li>
+  </ul>
+</div>
+</div>
+    <!-- JavaScript -->
+    <script src="//cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

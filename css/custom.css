@@ -1,0 +1,37 @@
+/* CSS */
+body {
+  background-color: antiquewhite;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+#containar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5px;
+}
+#array_sheet,
+#num_sheet,
+#date_sheet,
+#mouse_sheet {
+  grid-column: 1;
+  background-color: bisque;
+  width: 1000px;
+}
+#array_sheet ul,
+#num_sheet ul,
+#date_sheet ul,
+#mouse_sheet ul {
+  padding: 0;
+}
+#array_sheet ul li,
+#num_sheet ul li,
+#date_sheet ul li,
+#mouse_sheet ul li {
+  list-style: none;
+  border: dotted;
+}
+#array_sheet h2 {
+  margin: 0;
+}
